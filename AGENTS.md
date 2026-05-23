@@ -75,10 +75,10 @@ The project has dual runtime compatibility - works with both Bun and Node.js:
   - Maps model IDs to their context window sizes based on [1m] suffix
   - Sonnet 4.5 WITH [1m] suffix: 1M tokens (800k usable at 80%) - requires long context beta access
   - Sonnet 4.5 WITHOUT [1m] suffix: 200k tokens (160k usable at 80%)
-  - Legacy mo
+  - Legacy models default to 200k tokens
 
 ## Personal Notes
 
-> Forked from sirmalloc/ccstatusline for personal use. I primarily use this with the Sonnet 4.5 model
-> without the 1M context flag, so the 200k/160k usable token path is the one I care most about.
-> If the token usage display looks off, check model-context.ts first.
+> Forked from [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) for personal use.
+> My config lives at `~/.config/ccstatusline/settings.json` — back it up before running `bun run build`.
+> I keep powerline fonts disabled since my terminal (iTerm2 + JetBrains Mono) handles it inconsistently.
