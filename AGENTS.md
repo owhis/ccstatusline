@@ -80,5 +80,6 @@ The project has dual runtime compatibility - works with both Bun and Node.js:
 ## Personal Notes
 
 > Forked from [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) for personal use.
-> My config lives at `~/.config/ccstatusline/settings.json` — back it up before running `bun run build`.
-> I keep powerline fonts disabled since my terminal (iTerm2 + JetBrains Mono) handles it inconsistently.
+> My main interest is tweaking the token usage display thresholds and experimenting with
+> custom color schemes. The renderer.ts and model-context.ts files are the most relevant
+> for those customizations.
