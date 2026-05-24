@@ -80,5 +80,6 @@ The project has dual runtime compatibility - works with both Bun and Node.js:
 ## Personal Notes
 
 > Forked from [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) for personal use.
-> My main interest is tweaking the token usage display and experimenting with custom color themes.
-> The `renderer.ts` utility is the most interesting part — worth reading first if exploring the codebase.
+> Main reason: I wanted to tweak the default token usage warning threshold and experiment
+> with the color scheme. The upstream project is great but I prefer more conservative
+> warnings (e.g., alert at 70% context usage instead of 80%).
